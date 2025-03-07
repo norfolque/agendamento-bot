@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js"></script>
+</head>
+
+<body>
+    <div id="conteiner">
+        <div id="info">
+            <div id="text">
+                <em><b>PT-BR</b></em>
+                <a href="https://github.com/norfolque/agendamento-bot"><em>Github</em></a>
+            </div>
+            <p>Clique na bolinha para conversar com o chatbot</p>
+            <ul id="subinfo">
+                <li>O campo CPF existe no banco de dados mas está oculto aqui.</li>
+                <li>O banco de dados é limpado automaticamente a cada dia.</li>
+                <li>Evite colocar informações reais, esse projeto é apenas para apresentar e testar a ferramenta.</li>
+            </ul>
+            <p>Após fazer o agendamento, clique em recarregar para verificar se foi salvo no banco de dados.</p>
+        </div>
+
+        <div id="table">
+            <div id="header-table">
+                <p><b>Agendamentos:</b></p>
+                <button onclick="location.reload()">
+                    &#x21bb;
+                </button>
+            </div>
+            <table id="agendamentos-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <df-messenger intent="WELCOME" chat-title="agendamento" agent-id="7ca1b91a-a1b9-48f2-a026-6d6473cbe73b"
+            language-code="pt-br"></df-messenger>
+    </div>
+</body>
+
+</html>
