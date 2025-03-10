@@ -2,7 +2,7 @@
 
 Este é um projeto de chatbot para agendamento de consultas utilizando Dialogflow e Node.js.
 
-![agendamento-bot](assets/image.png)
+![agendamento-bot](images/image.png)
 
 ## Acesso pelo GitHub Pages
 
