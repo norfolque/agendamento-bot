@@ -2,6 +2,8 @@
 
 Este é um projeto de chatbot para agendamento de consultas utilizando Dialogflow e Node.js.
 
+![agendamento-bot](assets/image.png)
+
 ## Acesso pelo GitHub Pages
 
 Você também pode acessar o frontend do projeto através do GitHub Pages: [GitHub Pages]( https://norfolque.github.io/agendamento-bot/public/)
@@ -16,7 +18,7 @@ Você também pode acessar o frontend do projeto através do GitHub Pages: [GitH
 
 1. Clone o repositório:
     ```sh
-    git clone <URL_DO_REPOSITORIO>
+    git clone https://github.com/norfolque/agendamento-bot.git
     cd agendamento-bot
     ```
 
